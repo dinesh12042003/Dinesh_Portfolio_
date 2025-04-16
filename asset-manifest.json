@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/Dinesh_Portfolio_/static/css/main.e3221fda.css",
+    "main.js": "/Dinesh_Portfolio_/static/js/main.cecdcb52.js",
+    "static/media/about-me.jpg": "/Dinesh_Portfolio_/static/media/about-me.7e8069c0cd6818c145a2.jpg",
+    "static/media/gun.jpg": "/Dinesh_Portfolio_/static/media/gun.f1fcc34bc9e4d83cce97.jpg",
+    "static/media/histogram.jpg": "/Dinesh_Portfolio_/static/media/histogram.5ace882c7bfef9bc946c.jpg",
+    "static/media/student.jpg": "/Dinesh_Portfolio_/static/media/student.aee19af9c02379c66376.jpg",
+    "static/media/ecommerce.jpg": "/Dinesh_Portfolio_/static/media/ecommerce.439b303af01b98403363.jpg",
+    "static/media/lane.jpg": "/Dinesh_Portfolio_/static/media/lane.382d611a67b5a00e5ca4.jpg",
+    "static/media/fire.jpg": "/Dinesh_Portfolio_/static/media/fire.f9a2cd696ac9890c4be5.jpg",
+    "static/media/plagiarism.jpg": "/Dinesh_Portfolio_/static/media/plagiarism.443c96f828483db64f55.jpg",
+    "static/media/assistant.jpg": "/Dinesh_Portfolio_/static/media/assistant.1c22ec2f3ebb2fb7aee2.jpg",
+    "static/media/medalarm.jpg": "/Dinesh_Portfolio_/static/media/medalarm.10904a53bd6ee91fd8f4.jpg",
+    "static/media/Dinesh_Resume.pdf": "/Dinesh_Portfolio_/static/media/Dinesh_Resume.e1ad33d4f16c79985902.pdf",
+    "static/media/connect.png": "/Dinesh_Portfolio_/static/media/connect.36525f65081e7091d9d2.png",
+    "static/media/globallogic.png": "/Dinesh_Portfolio_/static/media/globallogic.cfd86ecd88975368428b.png",
+    "static/media/logo.png": "/Dinesh_Portfolio_/static/media/logo.21c8265fc09fcf2bf69f.png",
+    "static/media/school.png": "/Dinesh_Portfolio_/static/media/school.40e0c6c53fdb5bea16ce.png",
+    "static/media/star.png": "/Dinesh_Portfolio_/static/media/star.d61b22da9fea1da175b1.png",
+    "static/media/award.png": "/Dinesh_Portfolio_/static/media/award.37b05aa30cd28ffd9874.png",
+    "static/media/learnit.png": "/Dinesh_Portfolio_/static/media/learnit.3acbea5ee16f032a1a2e.png",
+    "static/media/chaithanya.png": "/Dinesh_Portfolio_/static/media/chaithanya.8415c2f54eda49944796.png",
+    "static/media/education.svg": "/Dinesh_Portfolio_/static/media/education.37f2b3e8746bd51a4dcb3a666e63fd22.svg",
+    "index.html": "/Dinesh_Portfolio_/index.html",
+    "main.e3221fda.css.map": "/Dinesh_Portfolio_/static/css/main.e3221fda.css.map",
+    "main.cecdcb52.js.map": "/Dinesh_Portfolio_/static/js/main.cecdcb52.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3221fda.css",
+    "static/js/main.cecdcb52.js"
+  ]
+}
