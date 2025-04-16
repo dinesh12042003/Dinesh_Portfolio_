@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Dinesh_Portfolio_/static/css/main.e3221fda.css",
-    "main.js": "/Dinesh_Portfolio_/static/js/main.cecdcb52.js",
+    "main.js": "/Dinesh_Portfolio_/static/js/main.bef311d6.js",
     "static/media/about-me.jpg": "/Dinesh_Portfolio_/static/media/about-me.7e8069c0cd6818c145a2.jpg",
     "static/media/gun.jpg": "/Dinesh_Portfolio_/static/media/gun.f1fcc34bc9e4d83cce97.jpg",
     "static/media/histogram.jpg": "/Dinesh_Portfolio_/static/media/histogram.5ace882c7bfef9bc946c.jpg",
@@ -24,10 +24,10 @@
     "static/media/education.svg": "/Dinesh_Portfolio_/static/media/education.37f2b3e8746bd51a4dcb3a666e63fd22.svg",
     "index.html": "/Dinesh_Portfolio_/index.html",
     "main.e3221fda.css.map": "/Dinesh_Portfolio_/static/css/main.e3221fda.css.map",
-    "main.cecdcb52.js.map": "/Dinesh_Portfolio_/static/js/main.cecdcb52.js.map"
+    "main.bef311d6.js.map": "/Dinesh_Portfolio_/static/js/main.bef311d6.js.map"
   },
   "entrypoints": [
     "static/css/main.e3221fda.css",
-    "static/js/main.cecdcb52.js"
+    "static/js/main.bef311d6.js"
   ]
 }
