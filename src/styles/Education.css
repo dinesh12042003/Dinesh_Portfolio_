@@ -1,0 +1,122 @@
+.education-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 2rem;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: #fff;
+  gap: 2rem;
+}
+
+.education-title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid #44e4ff;
+  display: inline-block;
+  padding-bottom: 0.5rem;
+  color: #00d9ff;
+}
+
+.glass-box {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  padding: 2rem;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  flex: 1;
+}
+
+.education-entry {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  border-left: 4px solid #00bcd4;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.education-entry:hover {
+  transform: scale(1.02);
+}
+
+.edu-logo {
+  width: 70px;
+  margin-right: 1.5rem;
+  transition: transform 0.4s ease;
+}
+
+.animated-logo:hover {
+  transform: scale(1.1) rotate(3deg);
+}
+
+.edu-entry-details h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.degree {
+  font-size: 0.95rem;
+  color: #ccc;
+}
+
+.year-gpa {
+  font-size: 0.85rem;
+  color: #aaa;
+}
+
+.education-image {
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+}
+
+.large-edu-image {
+  width: 100%;
+  max-width: 350px;
+  animation: float 6s ease-in-out infinite;
+  border-radius: 1rem;
+}
+
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .education-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .education-entry {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .edu-logo {
+    margin-bottom: 0.75rem;
+  }
+
+  .education-image {
+    margin-top: 1rem;
+  }
+
+  .education-title {
+    text-align: center;
+    width: 100%;
+  }
+}

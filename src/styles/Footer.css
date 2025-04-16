@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
+.footer-wrapper {
+  width: 100%;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: #fff;
+  padding: 3rem 1.5rem 1rem;
+  box-sizing: border-box;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  backdrop-filter: blur(12px);
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 30px rgba(0, 188, 212, 0.15);
+  max-width: 1300px;
+  margin: auto;
+}
+
+.footer-column {
+  flex: 1 1 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.brand-info .footer-logo {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.8rem;
+  color: #58a6ff;
+}
+
+.footer-description {
+  font-size: 0.95rem;
+  color: #ccc;
+}
+
+.footer-links h3,
+.footer-socials h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #58a6ff;
+}
+
+.footer-links a,
+.footer-socials a {
+  text-decoration: none;
+  color: #c9d1d9;
+  font-size: 0.95rem;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover,
+.footer-socials a:hover {
+  color: #58a6ff;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.social-icons a {
+  font-size: 1.3rem;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 0.5rem;
+  border-radius: 50%;
+  transition: transform 0.3s, background 0.3s;
+}
+
+.social-icons a:hover {
+  transform: scale(1.1);
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 2rem;
+  color: #aaa;
+  font-size: 0.85rem;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    padding: 1.5rem;
+  }
+
+  .footer-column {
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-logo {
+    font-size: 1.5rem;
+  }
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  background-color: #58a6ff;
+  color: white;
+  padding: 0.7rem;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  z-index: 1000;
+  transition: transform 0.3s ease;
+}
+
+.scroll-to-top:hover {
+  transform: scale(1.15);
+}

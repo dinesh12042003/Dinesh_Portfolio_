@@ -1,38 +1,132 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+  scroll-behavior: smooth;
+}
+
 .App {
-  text-align: center;
+  background: #121212;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+section {
+  padding: 60px 20px;
+  border-bottom: 1px solid #2a2a2a;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #00d8ff;
+  position: relative;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h2::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  height: 3px;
+  width: 50px;
+  background-color: #00d8ff;
+  animation: underline-slide 3s infinite;
+}
+
+@keyframes underline-slide {
+  0% { width: 0; }
+  50% { width: 50px; }
+  100% { width: 0; }
+}
+
+a {
+  color: #00d8ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img.profile {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 216, 255, 0.5);
+  overflow: hidden;
+  float: none;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.about-text {
+  flex: 1;
+  min-width: 280px;
+  text-align: left;
+}
+
+.about-image {
+  flex: 0 0 auto;
+  min-width: 220px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.project-card {
+  background: #1e1e1e;
+  padding: 20px;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: #eee;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
 }
 
-.App-link {
-  color: #61dafb;
+.project-card img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.project-card:hover {
+  transform: scale(1.05);
+  background: #2a2a2a;
+}
+
+.navbar-logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #00d8ff;
+  margin-right: auto;
+}
+
+.education-entry {
+  margin-bottom: 20px;
+}
+
+.education-entry h3 {
+  font-size: 1.4rem;
+  margin: 5px 0;
+  color: #00d8ff;
+}
+
+.education-entry p {
+  margin: 2px 0;
+  font-size: 0.95rem;
+  color: #ccc;
 }

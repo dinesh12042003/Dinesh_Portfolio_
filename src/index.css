@@ -1,13 +1,61 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0d1117;
+  color: #c9d1d9;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.header-wrapper,
+.footer-wrapper {
+  width: 100%;
+  background-color: #161b22;
 }
+
+.fixed-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  transition: background-color 0.3s, backdrop-filter 0.3s;
+}
+
+.fixed-navbar.blur {
+  background-color: rgba(22, 27, 34, 0.85);
+  backdrop-filter: blur(10px);
+}
+
+.App {
+  max-width: 1200px;
+  margin: auto;
+  box-sizing: border-box;
+  padding-top: 70px; /* Offset for fixed navbar */
+}
+
+.main-content-wrapper {
+  padding: 40px;
+}
+
+.main-content-wrapper > section {
+  margin-bottom: 80px;
+  padding: 40px;
+  background-color: #161b22;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+section h2 {
+  font-size: 2.2rem;
+  border-bottom: 2px solid #30363d;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+
+.footer-wrapper {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Scroll Event Listener to add blur */

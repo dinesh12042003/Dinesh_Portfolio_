@@ -1,0 +1,153 @@
+.about-section {
+  padding: 60px 20px;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: #e0e0e0;
+  backdrop-filter: blur(8px);
+}
+
+.about-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 1rem;
+}
+
+.glass-effect {
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.about-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-image.circle-shape img {
+  width: min(300px, 80vw);
+  height: min(300px, 80vw);
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #58a6ff;
+  transition: transform 0.4s ease-in-out;
+  box-shadow: 0 0 20px rgba(88, 166, 255, 0.3);
+}
+
+.about-image img:hover {
+  transform: scale(1.05);
+}
+
+.about-content {
+  flex: 2;
+  max-width: 600px;
+  text-align: left;
+}
+
+.about-content h2 {
+  font-size: 2.4rem;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.styled-name {
+  font-weight: bold;
+  font-size: 2.5rem;
+  background: linear-gradient(to right, #ffffff, #00bcd4);
+  background-size: 200% 100%;
+  background-position: 0% 0;
+  transition: background-position 1.5s ease, font-size 1.5s ease;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.styled-name:hover {
+  background-position: 100% 0;
+  font-size: 2.7rem;
+}
+
+.about-content p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 20px;
+  color: #ccc;
+}
+
+.about-content .highlights li {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  list-style: none;
+}
+
+.about-content .highlights li::before {
+  content: '➤';
+  color: #00bcd4;
+  margin-right: 8px;
+}
+
+.about-buttons {
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.about-buttons .btn {
+  padding: 14px 30px;
+  border: 2px solid #00bcd4;
+  background: rgba(0, 188, 212, 0.1);
+  color: #00bcd4;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 25px;
+  transition: all 0.4s ease-in-out;
+  text-decoration: none;
+  box-shadow: 0 0 10px rgba(0, 188, 212, 0.2);
+}
+
+.about-buttons .btn:hover {
+  background-color: #00bcd4;
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 0 20px rgba(0, 188, 212, 0.5);
+}
+
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+  }
+
+  .about-content h2 {
+    font-size: 2rem;
+  }
+
+  .styled-name {
+    font-size: 2rem;
+  }
+
+  .styled-name:hover {
+    font-size: 2.2rem;
+  }
+
+  .about-content p {
+    font-size: 1rem;
+  }
+
+  .about-image img {
+    width: 220px;
+    height: 220px;
+  }
+
+  .about-buttons {
+    justify-content: center;
+  }
+}

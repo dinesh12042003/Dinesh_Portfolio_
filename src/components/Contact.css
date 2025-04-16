@@ -1,0 +1,125 @@
+.contact-section {
+    padding: 4rem 2rem;
+    background:  linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    color: #fff;
+  }
+  
+  .contact-title {
+    font-size: 2.8rem;
+    margin-bottom: 2rem;
+    /* border-left: 6px solid #00bcd4; */ /* ← Remove this line */
+    padding-left: 0; /* Reset padding if needed */
+    text-align: left;
+  }
+  
+  
+  .contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-between;
+  }
+  
+  .glass {
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: 0 0 20px rgba(0, 188, 212, 0.2);
+    backdrop-filter: blur(10px);
+  }
+  
+  .contact-info {
+    flex: 1;
+    min-width: 280px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .connect-image {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 10px;
+    align-self: center;
+  }
+  
+  .catch-line {
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: center;
+  }
+  
+  .info-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1rem;
+  }
+  
+  .icon-bg {
+    background: #00bcd4;
+    padding: 0.6rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .info-icon {
+    color: #fff;
+    font-size: 1.2rem;
+  }
+  
+  .contact-form {
+    flex: 1;
+    min-width: 280px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 0.8rem 1rem;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    font-size: 1rem;
+  }
+  
+  .contact-form input::placeholder,
+  .contact-form textarea::placeholder {
+    color: #ccc;
+  }
+  
+  .contact-form button {
+    padding: 0.9rem 1.5rem;
+    background-color: #00bcd4;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: #0097a7;
+  }
+  
+  @media (max-width: 768px) {
+    .contact-container {
+      flex-direction: column;
+    }
+  
+    .connect-image {
+      max-width: 100%;
+    }
+  
+    .contact-title {
+      font-size: 2.2rem;
+    }
+  }
+  
