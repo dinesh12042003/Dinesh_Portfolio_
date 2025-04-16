@@ -16,6 +16,7 @@ const achievements = [
     description: 'Educated 10,000+ students across 100 schools in Telangana on digital literacy.',
     logo: starIcon
   },
+  {
     title: 'Certified in Deep Learning - NPTEL IIT Ropar',
     description: 'Completed course and gained knowledge on Neural Networkd and DL.',
     logo: awardIcon
