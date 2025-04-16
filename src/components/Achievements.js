@@ -12,14 +12,18 @@ const achievements = [
     logo: awardIcon
   },
   {
-    title: 'Hackathon Winner - T-Hub',
-    description: 'Built an end-to-end web app for social good in 24 hours.',
-    logo: medalIcon
-  },
-  {
     title: 'Digital Yatra Organizer',
     description: 'Educated 10,000+ students across 100 schools in Telangana on digital literacy.',
     logo: starIcon
+  },
+  title: 'Certified in Deep Learning - NPTEL IIT Ropar',
+    description: 'Completed course and gained knowledge on Neural Networkd and DL.',
+    logo: awardIcon
+  },
+  {
+    title: 'Hackathon Merit - IIITH',
+    description: 'Built an end-to-end web app for social good in 24 hours.',
+    logo: medalIcon
   }
 ];
 
